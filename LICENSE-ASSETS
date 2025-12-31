@@ -1,0 +1,27 @@
+PROPRIETARY LICENSE FOR CREATIVE ASSETS
+
+Copyright (c) 2025 [Alexander Minchev/@adminchev]
+
+1. DEFINITIONS
+   "Assets" refers to all visual media, including but not limited to 
+   icons, logos, and images located in the "icons/" directory of 
+   this repository.
+
+2. GRANT OF LICENSE
+   The Assets are provided for the sole purpose of allowing users to 
+   run, view, and test the software in its intended context.
+
+3. RESTRICTIONS
+   You may NOT:
+   a. Reuse the Assets in other projects, software, or extensions.
+   b. Modify the Assets for use in your own derived works.
+   c. Redistribute the Assets as standalone files.
+   d. Use the Assets to represent a different product or service.
+
+4. RELATION TO SOURCE CODE
+   The source code (JavaScript, JSON, HTML, CSS) in this repository 
+   remains licensed under the MIT License as defined in the "LICENSE" 
+   file. This Proprietary License applies strictly to the visual 
+   Assets described in Section 1.
+
+ALL RIGHTS RESERVED.
