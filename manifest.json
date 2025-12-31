@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Global Grayscale",
+  "version": "4.0",
+  "description": "Globally synced grayscale for all tabs and UI.",
+  "permissions": [
+    "scripting",
+    "theme",
+    "storage"
+  ],
+  "action": {
+    "default_title": "Toggle Global Grayscale"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "homepage_url": "https://github.com/your-github-username/firefox-grayscale",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "global-grayscale@your-addon-id.com",
+      "strict_min_version": "100.0"
+    }
+  }
+}
+
